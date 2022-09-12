@@ -1,0 +1,30 @@
+.navbar {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar > div > h1 {
+    color: white;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.nav-bar-logo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-logo > img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-title{
+    margin-right: 30px;
+    font-weight: light;
+}

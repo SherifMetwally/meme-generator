@@ -1,0 +1,33 @@
+.form {
+    display: grid;
+    flex-basis: auto;
+    grid-template: 40px 40px / 50% 50% ;
+    gap: 25px;
+    padding: 20px;
+}
+
+.input-field {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 2px;
+    font-size: 16pt;
+    
+}
+
+.input-button {
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    font-size: 16pt;
+    height: 60px;
+    line-height: 0;
+    font-size: 20pt;
+    cursor: pointer;
+    }
+
+.meme-image {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
